@@ -1,9 +1,10 @@
 .header_container{
      display: flex;
+     align-items: end;
      justify-content: space-between;
      padding-top: 23px;
      padding-bottom: 23px;
-     .frame{
+     label{
           display: none;
      }
      .logo{
@@ -11,6 +12,9 @@
           gap: 60px;
           cursor: pointer;
           align-items: center;
+          #check{
+               display: none;
+          }
           img{
                width: 148px;
                height: 40px;
@@ -42,7 +46,10 @@
                align-items: center;
                justify-content: space-between;
                color: rgba(51, 51, 51, 1);
-               h5{
+               .h5{
+                    display: flex;
+                    box-sizing: content-box;
+                    gap: 15px;
                     font-size: 16px;
                     font-weight: 500;
                     margin-left: 10px;

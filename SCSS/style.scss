@@ -43,6 +43,21 @@ a{
      .container{
           max-width: 990px;
      }
+     .hero_container{
+          .block{
+               flex-direction: column;
+          }
+     }
+     .main{
+          .main_container{
+               gap: 55px;
+               display: flex;
+               flex-direction: column;
+               .main-box{
+                    gap: 30px;
+               }
+          }
+     }
      
 }
 
@@ -50,11 +65,45 @@ a{
      .container{
           max-width: 750px;
      }
+     .header_container{
+          label{
+               display: block;
+          }
+          .logo ul, .regstratsia .h5 h5, .regstratsia .demo {
+               display: none;
+          }
+          #check:checked  ul{
+               display: flex;
+               flex-direction: column;
+     }
+     .hero_container{
+          .block .info{
+               h1{
+                    font-size: 38px;
+               }
+               p{
+                    font-size: 18px ;
+               }
+          } 
+          .block .info .box-demo {
+               flex-direction: column;
+               .box-demo .demo{
+                    width: 100%;
+               }
+          }
+     }
      
 }
 @media screen  and (max-width: 756px) {
      .container{
           max-width: 560px;
+     }
+     .hero-container {
+          .block .image{
+               img{
+                    width: 480px;
+               }
+          }
      }
      
 }
