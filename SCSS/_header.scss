@@ -1,0 +1,74 @@
+.header_container{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 23px;
+     padding-bottom: 23px;
+     .frame{
+          display: none;
+     }
+     .logo{
+          display: flex;
+          gap: 60px;
+          cursor: pointer;
+          align-items: center;
+          img{
+               width: 148px;
+               height: 40px;
+          }
+          ul{
+               list-style: none;
+               display: flex;
+               // gap: 25px;
+               align-items: center;
+          }
+          ul a{
+               color: rgba(51, 51, 51, 1);
+               font-size: 16px;
+               font-weight: 500;
+               padding: 5px 10px;
+               box-sizing: border-box;
+
+               transition: all 0.5s;
+          }
+          ul a:hover{
+               color: #fff;
+               border-bottom: 0px solid rgba(19, 171, 78, 1);
+               border-radius: 5px;
+               background-color: rgba(19, 171, 78, 1);
+          }
+     }
+          .regstratsia{
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               color: rgba(51, 51, 51, 1);
+               h5{
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-left: 10px;
+                    box-sizing: border-box;
+               }
+               h5:hover , h5:hover i{
+                    box-sizing: border-box;
+                    border-bottom: 1px double rgba(19, 171, 78, 1);
+                  color: rgba(19, 171, 78, 1);
+               }
+               .demo{
+                    margin-left: 50px;
+                    transition: all 0.4s;
+                    box-sizing:border-box ;
+                  @extend %Demobutton
+                  
+               }
+               .demo:hover{
+                    background-color: #fff;
+                    color: rgba(19, 171, 78, 1);
+                    border: 1px solid rgba(19, 171, 78, 1);
+                    box-sizing: border-box;
+               }
+               
+
+          }
+
+
+}

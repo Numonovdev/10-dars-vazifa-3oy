@@ -1,0 +1,18 @@
+.main_container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     padding-top: 70px;
+     box-sizing: border-box;
+     padding-bottom: 150px;
+     gap: 50px;
+     img{
+          height: 67px;
+          transition: all 0.5s;
+     }
+     img:hover{
+      background-color: rgba(0, 0, 0, 0.09);
+      border-radius: 5px;     
+     }
+}
